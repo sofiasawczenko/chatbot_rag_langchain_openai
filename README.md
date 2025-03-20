@@ -35,15 +35,16 @@ python src/main.py
 ## 6. File & Folder Structure
 
 ```bash
+chatbot_rag_langchain/
  ├── src/
- │   ├── chatbot.py    
- │   ├── main.py           
- │   ├── rag_pipeline.py   
+ │   ├── chatbot.py          # Contains chatbot logic
+ │   ├── main.py             # Main entry point of the project
+ │   ├── rag_pipeline.py     # Handles the RAG (Retrieval-Augmented Generation) pipeline
  ├── config/
- │   ├── config.py          
+ │   ├── config.py           # Configuration settings for the project
  ├── data/
- │   ├── pdfs/              
- ├── requirements.txt        
- ├── .env                    
+ │   ├── pdfs/               # Directory where PDFs are stored for analysis or retrieval
+ ├── requirements.txt        # Dependencies required for the project
+ ├── .env                    # Environment variables (API keys, paths, etc.)                 
 ```
 Now you're ready to build, test, and enhance this chatbot.
