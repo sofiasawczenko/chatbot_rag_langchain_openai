@@ -25,6 +25,8 @@ pip install -r requirements.txt
 ## 4. Project Configuration
 Set up environment variables in the .env file as needed. This file should contain necessary variables such as API keys, directory paths, etc.
 
+Get an API Key on OpenAI website https://platform.openai.com/docs/overview
+
 ## 5. Running the Project
 To run the project, execute the main script:
 
