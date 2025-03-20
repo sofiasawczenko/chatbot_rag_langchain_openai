@@ -14,17 +14,35 @@ Ensure you have the following installed:
 ### Clone the repository or extract the project
 If you received the project as a **ZIP file**, extract it to a directory of your choice.
 
-Navigate to the project directory:
+## 3. Installing Dependencies
 
+With the virtual environment activated, install the required dependencies:
 
-chatbot_rag_langchain/
+```bash
+pip install -r requirements.txt
+```
+
+## 4. Project Configuration
+Set up environment variables in the .env file as needed. This file should contain necessary variables such as API keys, directory paths, etc.
+
+## 5. Running the Project
+To run the project, execute the main script:
+
+```bash
+python src/main.py
+```
+
+## 6. File & Folder Structure
+
  ├── src/
- │   ├── chatbot.py          # Contains chatbot logic
- │   ├── main.py             # Main entry point of the project
- │   ├── rag_pipeline.py     # Handles the RAG (Retrieval-Augmented Generation) pipeline
+ │   ├── chatbot.py    
+ │   ├── main.py           
+ │   ├── rag_pipeline.py   
  ├── config/
- │   ├── config.py           # Configuration settings for the project
+ │   ├── config.py          
  ├── data/
- │   ├── pdfs/               # Directory where PDFs are stored for analysis or retrieval
- ├── requirements.txt        # Dependencies required for the project
- ├── .env                    # Environment variables (API keys, paths, etc.)
+ │   ├── pdfs/              
+ ├── requirements.txt        
+ ├── .env                    
+
+Now you're ready to build, test, and enhance this chatbot.
