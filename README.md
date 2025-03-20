@@ -1,35 +1,30 @@
-Projeto
-Este é um projeto console base para criação de chatbots com RAG usando LangChain e o modelo de linguagem da OpenAI. Nele você poderá salvar PDFs em uma pasta e fazer com que o chatbot responda com informações obtidades dele.
+# Chatbot with RAG using LangChain and OpenAI
 
-É um projeto base. Não espere muito dele 😊
+This is a basic console project for creating chatbots with RAG using **LangChain** and OpenAI's **language model**. You can save **PDFs** in a folder and have the chatbot respond with information extracted from them.
 
-1. Pré-requisitos
-Certifique-se de ter o Python 3.12.5 instalado em seu sistema.
-Instale o Git se ainda não tiver, para clonar repositórios e gerenciar o código (opcional).
-2. Configuração do Ambiente
-Clone o repositório ou extraia o projeto: Se você recebeu o projeto como um arquivo zip, extraia-o para um diretório de sua escolha.
+## 1. Prerequisites
 
-Navegue até o diretório do projeto:
+Ensure you have the following installed:
 
-cd caminho/para/chatbot_rag_langchain
-Crie e ative um ambiente virtual (opcional, mas recomendado):
+- **Python 3.12.5**
+- **Git** (optional) for cloning repositories and managing the code
 
-python3 -m venv venv
-source venv/bin/activate   # No Windows use: venv\Scripts\activate
-3. Instalação das Dependências
-Com o ambiente virtual ativado, instale as dependências listadas no arquivo requirements.txt:
+## 2. Environment Setup
 
-pip install -r requirements.txt
-4. Configuração do Projeto
-Configure as variáveis de ambiente no arquivo .env conforme necessário. Esse arquivo deve conter variáveis que o projeto utiliza, como chaves de API, caminhos de diretórios, etc.
+### Clone the repository or extract the project
+If you received the project as a **ZIP file**, extract it to a directory of your choice.
 
-5. Execução do Projeto
-Para executar o projeto, você pode rodar o script principal:
+Navigate to the project directory:
 
-python src/main.py
-6. Estrutura de Arquivos e Pastas
-src/chatbot.py: Contém a lógica do chatbot.
-src/main.py: Ponto de entrada do projeto.
-src/rag_pipeline.py: Lida com a pipeline RAG (Retrieval-Augmented Generation).
-config/config.py: Arquivo de configuração usado pelo projeto.
-data/pdfs/: Diretório onde ficam armazenados os PDFs usados para análise ou busca.
+
+chatbot_rag_langchain/
+ ├── src/
+ │   ├── chatbot.py          # Contains chatbot logic
+ │   ├── main.py             # Main entry point of the project
+ │   ├── rag_pipeline.py     # Handles the RAG (Retrieval-Augmented Generation) pipeline
+ ├── config/
+ │   ├── config.py           # Configuration settings for the project
+ ├── data/
+ │   ├── pdfs/               # Directory where PDFs are stored for analysis or retrieval
+ ├── requirements.txt        # Dependencies required for the project
+ ├── .env                    # Environment variables (API keys, paths, etc.)
