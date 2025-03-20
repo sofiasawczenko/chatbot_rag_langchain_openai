@@ -34,6 +34,7 @@ python src/main.py
 
 ## 6. File & Folder Structure
 
+```bash
  ├── src/
  │   ├── chatbot.py    
  │   ├── main.py           
@@ -44,5 +45,5 @@ python src/main.py
  │   ├── pdfs/              
  ├── requirements.txt        
  ├── .env                    
-
+```
 Now you're ready to build, test, and enhance this chatbot.
